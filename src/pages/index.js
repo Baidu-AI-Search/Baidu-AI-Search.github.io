@@ -59,7 +59,7 @@ function BenchmarkCards() {
       score: '94.6%',
       desc: '真实工作流与多步骤工具调用基准测试，全面超越主流框架，零人工干预闭环。',
       buttons: [
-        { label: '评测明细', link: 'https://github.com/Baidu-AI-Search/Orion-Mission-Mode', primary: true },
+        { label: '评测明细', link: 'https://github.com/Baidu-AI-Search/PinchBench-Evaluation', primary: true },
         { label: '榜单结果', link: 'https://pinchbench.com/?official=false', primary: false }
       ]
     },
@@ -130,7 +130,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`任务化模式 - ${siteConfig.title}`}
+      title={`Baidu AI Search - Orion Mission Mode`}
       description="百度AI搜索 - 任务化模式 (Orion Mission Mode) 评测与技术文档库">
       <HomepageHeader />
       <main>
