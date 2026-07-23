@@ -33,7 +33,7 @@ function HomepageHeader() {
           <Link
             className="button button--outline button--secondary button--lg"
             style={{ color: '#fff', borderColor: '#fff' }}
-            to="https://pinchbench.com/?official=false">
+            to="https://pinchibench-web.vercel.app/">
             🏆 PinchBench 榜单
           </Link>
           <Link
@@ -60,7 +60,7 @@ function BenchmarkCards() {
       desc: '真实工作流与多步骤工具调用基准测试，全面超越主流框架，零人工干预闭环。',
       buttons: [
         { label: '评测明细', link: 'https://github.com/Baidu-AI-Search/PinchBench-Evaluation', primary: true },
-        { label: '榜单结果', link: 'https://pinchbench.com/?official=false', primary: false }
+        { label: '榜单结果', link: 'https://pinchibench-web.vercel.app/', primary: false }
       ]
     },
     {
