@@ -67,7 +67,7 @@ function BenchmarkCards() {
       title: 'SuperCLUE',
       badge: '🥇 国内第一',
       badgeClass: 'badge--secondary',
-      score: 'Coming Soon',
+      score: '97.6%',
       desc: '多智能体任务与中文原生语境评测基准，达到国内第一',
       buttons: [
         { label: '评测明细', link: 'https://mp.weixin.qq.com/s/bL9sI7dISNRohtUdTv_72w', primary: true }, // link="#" 实现点击无跳转
